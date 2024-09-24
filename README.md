@@ -27,10 +27,14 @@ O classificador utiliza o algoritmo KNN para prever os dígitos em imagens do da
 ## Estrutura dos Arquivos
 
 ```bash
-├── MNIST_csv/
-│   ├── MNIST_train.csv  # Dados de treino do MNIST
-│   ├── MNIST_test.csv   # Dados de teste do MNIST
-├── KNN_MNIST.pkl        # Modelo treinado KNN salvo
-├── SCALER_MNIST.pkl     # Scaler salvo (StandardScaler)
-├── knn_digit_classifier.py  # Código do classificador
-└── README.md            # Documentação do projeto
+├── scr
+│   ├── MNIST_csv_zip
+│   │   └── mnist_csv.zip      # Conjunto de dados usado no modelo
+│   └── main.py                # Código do classificador
+└── README.md                  # Documentação do projeto
+```
+## Modelo Salvo
+O modelo treinado pode ser baixado do Google Drive através do seguinte link:
+
+[Download do Modelo KNN](https://drive.google.com/file/d/16JgrPJgGcJtHybvMvKQdWOD6NY6gF41A/view?usp=sharing)
+
